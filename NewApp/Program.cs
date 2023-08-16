@@ -2,11 +2,10 @@
 {
     private static void Main(string[] args)
     {
-       int a = 1;
-       do
-       {
-        System.Console.WriteLine("Vongf lặp thứ {0}",a);
-        a++;
-       }while(a <10);
+        for(int i = 0; i < 10; i++)
+        {
+            if(i == 5) break;
+            System.Console.WriteLine("Vòng lặp thứ {0}", i);
+        }
     }
 }
