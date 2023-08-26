@@ -1,0 +1,6 @@
+C:\Users\Admin\Videos\Netcore\Demo\obj\Debug\net7.0\Demo.csproj.AssemblyReference.cache
+C:\Users\Admin\Videos\Netcore\Demo\obj\Debug\net7.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Videos\Netcore\Demo\obj\Debug\net7.0\Demo.AssemblyInfoInputs.cache
+C:\Users\Admin\Videos\Netcore\Demo\obj\Debug\net7.0\Demo.AssemblyInfo.cs
+C:\Users\Admin\Videos\Netcore\Demo\obj\Debug\net7.0\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Videos\Netcore\Demo\obj\Debug\net7.0\Demo.MvcApplicationPartsAssemblyInfo.cache
