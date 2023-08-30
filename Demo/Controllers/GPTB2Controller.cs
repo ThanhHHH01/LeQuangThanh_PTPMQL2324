@@ -1,29 +1,16 @@
-using System.Reflection.PortableExecutable;
-using System;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Demo.PersonController
+namespace Demo.GPTB2Controller
 {
-    public class PersonController : Controller
+    public class GPTB2Controller : Controller
     {
-        [HttpGet]
         public IActionResult Index()
-        {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Index(string Name)
-        {
-            ViewBag.thongbao= "Xin chào "+Name;
-            return View();
-        }
-        public IActionResult Giaiptb2()
     {
         return View();
     }
     
     [HttpPost]
-    public IActionResult Giaiptb2(string hesoA, string hesoB, string hesoC)
+    public IActionResult Index(string hesoA, string hesoB, string hesoC)
     {
         double delta, x1, x2, a=0, b=0, c=0;
         string ketqua;

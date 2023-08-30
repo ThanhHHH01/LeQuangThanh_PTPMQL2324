@@ -24065,6 +24065,11 @@
       "FilePath": "c:\\Users\\Admin\\Videos\\Netcore\\Demo\\Views\\Person\\Index.cshtml",
       "TargetPath": "Views\\Person\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Admin\\Videos\\Netcore\\Demo\\Views\\GPTB2\\index.cshtml",
+      "TargetPath": "Views\\GPTB2\\index.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }

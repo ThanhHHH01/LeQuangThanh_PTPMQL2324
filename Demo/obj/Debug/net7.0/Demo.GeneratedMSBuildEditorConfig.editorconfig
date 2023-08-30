@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\Admin\Videos\Netcore\Demo
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/Users/Admin/Videos/Netcore/Demo/Views/GPTB2/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR1BUQjJcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/Admin/Videos/Netcore/Demo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
