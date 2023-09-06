@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Videos\\Netcore\\Demo\\Demo.csproj": {}
+    "C:\\Users\\Admin\\Videos\\Netcore\\demo\\Demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Videos\\Netcore\\Demo\\Demo.csproj": {
+    "C:\\Users\\Admin\\Videos\\Netcore\\demo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Videos\\Netcore\\Demo\\Demo.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Videos\\Netcore\\demo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "C:\\Users\\Admin\\Videos\\Netcore\\Demo\\Demo.csproj",
+        "projectPath": "C:\\Users\\Admin\\Videos\\Netcore\\demo\\Demo.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Videos\\Netcore\\Demo\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Videos\\Netcore\\demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
