@@ -1,9 +1,11 @@
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcMovie.Models
 {
     public class Daily
     {
+        [Key]
         public string MaDaiLy { get; set; }
         public string TenDaiLy { get; set; }
         public string DiaChi { get; set; }

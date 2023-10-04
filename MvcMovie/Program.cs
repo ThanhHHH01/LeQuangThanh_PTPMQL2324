@@ -1,10 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using NuGet.Protocol.Plugins;
-using MvcMovie.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<ApplicationDbcontext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")
     ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
 
